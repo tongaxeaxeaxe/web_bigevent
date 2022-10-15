@@ -22,7 +22,7 @@ iframe {
 }
 
 a {
-  transition: none !important;
+  transition: none!important;
 }
 
 .userinfo {
@@ -30,6 +30,7 @@ a {
   line-height: 60px;
   text-align: center;
   font-size: 12px;
+  /* 禁止文本选中 */
   user-select: none;
 }
 
@@ -37,11 +38,13 @@ a {
   border-bottom: 1px solid #282b33;
 }
 
+/* 自己的头像 */
 .layui-nav-img {
   width: 40px;
   height: 40px;
 }
 
+/* 文本头像 */
 .text-avatar {
   display: inline-block;
   width: 40px;
@@ -55,8 +58,4 @@ a {
   position: relative;
   top: 4px;
   margin-right: 10px;
-}
-
-.layui-nav-item a {
-  font-size: 12px;
 }
