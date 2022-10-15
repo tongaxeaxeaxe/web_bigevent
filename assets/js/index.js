@@ -33,7 +33,7 @@ function getUserInfo() {
     // },
     // 请求成功的回调函数
     success: function(res) {
-      console.log(res)
+      // console.log(res)
       if(res.status !== 0) return layui.layer.msg(res.message)
       // 成功 调用renderAvatar() 渲染用户的头像
       renderAvatar(res.data)
